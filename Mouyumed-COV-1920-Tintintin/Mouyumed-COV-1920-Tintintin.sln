@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Mouyumed-COV-1920-Tintintin", "Mouyumed-COV-1920-Tintintin\Mouyumed-COV-1920-Tintintin.vbproj", "{34361DBB-D3EE-4B37-9E11-4FF3F4624477}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34361DBB-D3EE-4B37-9E11-4FF3F4624477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34361DBB-D3EE-4B37-9E11-4FF3F4624477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34361DBB-D3EE-4B37-9E11-4FF3F4624477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34361DBB-D3EE-4B37-9E11-4FF3F4624477}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31CC3D1E-5CDC-4F3E-A294-7CD38006229C}
+	EndGlobalSection
+EndGlobal
