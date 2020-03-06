@@ -6,9 +6,10 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
 
     public class IdentityServer
     {
-        public IdentityServer()
+        public IdentityServer(Boolean withDb = true)
         {
-            init();
+            if (withDb) init();
+            else initWithoutDB();
             /*
             config :
             dbname connection 
@@ -19,7 +20,11 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
 
         public void init()
         {
-            Log.logger.Info("init");
+            Security secu = new Security();
+            int tokenLength = 40;
+            string token = secu.createToken(tokenLength);
+
+            //Save token in db
         }
 
         public void initWithoutDB()

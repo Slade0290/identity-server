@@ -23,6 +23,11 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
 
 		}
 
+		public string createToken(int size)
+		{
+			return TokenGenerator.Generate(size);
+		}
+
 		public Boolean tokenIsExpirated()
 		{
 
