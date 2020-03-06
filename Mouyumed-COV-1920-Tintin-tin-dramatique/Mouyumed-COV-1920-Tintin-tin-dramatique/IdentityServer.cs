@@ -1,6 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace IDServer
+namespace Mouyumed_COV_1920_Tintin_tin_dramatique
 {
 
     public class IdentityServer
@@ -18,7 +19,7 @@ namespace IDServer
 
         public void init()
         {
-
+            Log.logger.Info("init");
         }
 
         public void initWithoutDB()

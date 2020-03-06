@@ -5,4 +5,9 @@
     <RootNamespace>Mouyumed_COV_1920_Tintin_tin_dramatique</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="4.6.8" />
+    <PackageReference Include="NLog.Config" Version="4.6.8" />
+  </ItemGroup>
+
 </Project>

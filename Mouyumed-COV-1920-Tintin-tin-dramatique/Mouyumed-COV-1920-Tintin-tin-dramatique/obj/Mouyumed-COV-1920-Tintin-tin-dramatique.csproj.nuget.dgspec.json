@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lydav\\source\\repos\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj": {}
+    "D:\\Ynov_Cours_M1\\Archi_Logiciel\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lydav\\source\\repos\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj": {
+    "D:\\Ynov_Cours_M1\\Archi_Logiciel\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lydav\\source\\repos\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj",
+        "projectUniqueName": "D:\\Ynov_Cours_M1\\Archi_Logiciel\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj",
         "projectName": "Mouyumed-COV-1920-Tintin-tin-dramatique",
-        "projectPath": "C:\\Users\\lydav\\source\\repos\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj",
-        "packagesPath": "C:\\Users\\lydav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lydav\\source\\repos\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\obj\\",
+        "projectPath": "D:\\Ynov_Cours_M1\\Archi_Logiciel\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj",
+        "packagesPath": "C:\\Users\\oopsp\\.nuget\\packages\\",
+        "outputPath": "D:\\Ynov_Cours_M1\\Archi_Logiciel\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\lydav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\oopsp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,6 +40,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[4.6.8, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.6.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
