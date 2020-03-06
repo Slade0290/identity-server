@@ -24,7 +24,7 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
             int tokenLength = 40;
             string token = secu.createToken(tokenLength);
 
-            //Save token in db
+            secu.saveToken(token);
         }
 
         public void initWithoutDB()
