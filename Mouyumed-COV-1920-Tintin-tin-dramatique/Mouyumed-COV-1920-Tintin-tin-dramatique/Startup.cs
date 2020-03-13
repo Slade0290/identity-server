@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
 
+
 namespace Mouyumed_COV_1920_Tintin_tin_dramatique
 {
 	public class Startup
@@ -17,8 +18,12 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
 		// This method gets called by the runtime. Use this method to add services to the container.
 		// For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
 		public void ConfigureServices(IServiceCollection services)
+<<<<<<< HEAD
 		{
 
+=======
+		{			
+>>>>>>> 5f2ee69593d892e420edf44924dd6d42cdd7a7d1
 			services.AddAuthentication()
 				.AddJwtBearer("AzureAD", options =>
 				{
