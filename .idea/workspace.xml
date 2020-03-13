@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="60b16978-002f-4bbe-9f96-86a1bc4befd6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/identity-server/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/identity-server/v15/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mouyumed-COV-1920-Tintin-tin-dramatique/Mouyumed-COV-1920-Tintin-tin-dramatique/Security.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mouyumed-COV-1920-Tintin-tin-dramatique/Mouyumed-COV-1920-Tintin-tin-dramatique/Security.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mouyumed-COV-1920-Tintin-tin-dramatique/Mouyumed-COV-1920-Tintin-tin-dramatique/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mouyumed-COV-1920-Tintin-tin-dramatique/Mouyumed-COV-1920-Tintin-tin-dramatique/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mouyumed-COV-1920-Tintin-tin-dramatique/Mouyumed-COV-1920-Tintin-tin-dramatique/obj/Mouyumed-COV-1920-Tintin-tin-dramatique.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Mouyumed-COV-1920-Tintin-tin-dramatique/Mouyumed-COV-1920-Tintin-tin-dramatique/obj/Mouyumed-COV-1920-Tintin-tin-dramatique.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mouyumed-COV-1920-Tintin-tin-dramatique/Mouyumed-COV-1920-Tintin-tin-dramatique/obj/Mouyumed-COV-1920-Tintin-tin-dramatique.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Mouyumed-COV-1920-Tintin-tin-dramatique/Mouyumed-COV-1920-Tintin-tin-dramatique/obj/Mouyumed-COV-1920-Tintin-tin-dramatique.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mouyumed-COV-1920-Tintin-tin-dramatique/Mouyumed-COV-1920-Tintin-tin-dramatique/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Mouyumed-COV-1920-Tintin-tin-dramatique/Mouyumed-COV-1920-Tintin-tin-dramatique/obj/project.assets.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +48,7 @@
       <updated>1583493905757</updated>
       <workItem from="1583493907604" duration="107000" />
       <workItem from="1584021129406" duration="1554000" />
-      <workItem from="1584088794194" duration="46000" />
+      <workItem from="1584088794194" duration="2304000" />
     </task>
     <servers />
   </component>

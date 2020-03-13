@@ -23,7 +23,7 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
 			return Compare(testPwd, getPwd);
 		}
 
-		public Boolean saveToken(string token,string pw , string username)
+		public Boolean saveToken(string token, string username)
 		{
 
 		}
