@@ -11,7 +11,8 @@ namespace identity.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer(@"connectionstring");
+            //optionsBuilder.UseSqlServer(@"Server=(localdb)\\mssqllocaldb;Database=EFGetStarted.ConsoleApp.NewDb;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer(@"Server=localhost:3306;Database=test;User Id=;Password=;");//, x => x.MigrationsAssembly("Mouyumed_COV_1920_Tintin_tin_dramatique.Migrations"));
         }
 
         public DbSet<Client> Clients { get; set; }

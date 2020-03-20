@@ -6,16 +6,16 @@ namespace identity.Models
 	{
 
 		public int ID { get; set; }
-
-		private string login { get; set; }
-		private string password { get; set; }
-		private string clientID { get; set; }
-		private string secretID { get; set; }
+		public string login { get; set; }
+		public string password { get; set; }
+		public string clientID { get; set; }
+		public string secretID { get; set; }
 
 		public Client()
 		{
 
 		}
+
 		public Client(string login, string password)
 		{
 			this.login = login;
