@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lydav\\Desktop\\git-repo\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj": {}
+    "C:\\Users\\flori\\Documents\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lydav\\Desktop\\git-repo\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj": {
+    "C:\\Users\\flori\\Documents\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lydav\\Desktop\\git-repo\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj",
+        "projectUniqueName": "C:\\Users\\flori\\Documents\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj",
         "projectName": "Mouyumed-COV-1920-Tintin-tin-dramatique",
-        "projectPath": "C:\\Users\\lydav\\Desktop\\git-repo\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj",
-        "packagesPath": "C:\\Users\\lydav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lydav\\Desktop\\git-repo\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\obj\\",
+        "projectPath": "C:\\Users\\flori\\Documents\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj",
+        "packagesPath": "C:\\Users\\flori\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\flori\\Documents\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lydav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\flori\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
