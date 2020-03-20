@@ -44,7 +44,7 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
 
 		public int getPassword(string username)
 		{
-			int pwd;
+			int pwd = 0;
 			System.Data.SqlClient.SqlConnection sqlConnection1 =
 			new System.Data.SqlClient.SqlConnection("YOUR CONNECTION STRING");
 
@@ -90,6 +90,12 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
 		{
 			createToken(12);
 		}
+
+		public string generateSecretID()
+		{
+			return "";
+		}
+
 	}
 
 }

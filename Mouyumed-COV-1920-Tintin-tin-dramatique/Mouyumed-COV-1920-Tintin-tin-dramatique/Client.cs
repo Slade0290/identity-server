@@ -16,10 +16,10 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
 			this.password = password;
 		}
 
-		public Client(string clientID, string secretID)
+		public Client(string clientID)
 		{
 			this.clientID = clientID;
-			this.secretID = secretID;
+			this.secretID = new Security().generateSecretID();
 		}
 	}
 }

@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GIT\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj": {}
+    "C:\\Users\\lydav\\Desktop\\git-repo\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj": {}
   },
   "projects": {
-    "D:\\GIT\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj": {
+    "C:\\Users\\lydav\\Desktop\\git-repo\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GIT\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj",
+        "projectUniqueName": "C:\\Users\\lydav\\Desktop\\git-repo\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj",
         "projectName": "Mouyumed-COV-1920-Tintin-tin-dramatique",
-        "projectPath": "D:\\GIT\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj",
-        "packagesPath": "C:\\Users\\Eniotna\\.nuget\\packages\\",
-        "outputPath": "D:\\GIT\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\obj\\",
+        "projectPath": "C:\\Users\\lydav\\Desktop\\git-repo\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj",
+        "packagesPath": "C:\\Users\\lydav\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lydav\\Desktop\\git-repo\\identity-server\\Mouyumed-COV-1920-Tintin-tin-dramatique\\Mouyumed-COV-1920-Tintin-tin-dramatique\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Eniotna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lydav\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
             "Microsoft.AspNetCore.Http": {
               "target": "Package",
               "version": "[2.2.2, )"
@@ -76,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
