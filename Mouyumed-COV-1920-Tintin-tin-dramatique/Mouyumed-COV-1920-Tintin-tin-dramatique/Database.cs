@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.SqlClient;
-using System.Reflection;
-using Microsoft.EntityFrameworkCore.Infrastructure;
+﻿using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
+using System;
+using System.Collections.Generic;
+using System.Reflection;
+using System.Data.SqlClient;
 
 namespace Mouyumed_COV_1920_Tintin_tin_dramatique
 {
@@ -17,6 +16,8 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
 		public ModelSnapshot ModelSnapshot => throw new NotImplementedException();
 
 		public Assembly Assembly => throw new NotImplementedException();
+
+		ModelSnapshot IMigrationsAssembly.ModelSnapshot => throw new NotImplementedException();
 
 		public Database(string datasource, string userid, string pwd, string table)
 		{
