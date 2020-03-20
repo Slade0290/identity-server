@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mouyumed_COV_1920_Tintin_tin_dramatique.Models;
+using System;
 using System.Collections.Generic;
 
 namespace Mouyumed_COV_1920_Tintin_tin_dramatique
@@ -23,7 +24,7 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
             Security secu = new Security();
             string token = secu.createToken(ConstVariable.TOKEN_LENGHT);
 
-            secu.saveToken(token);
+            secu.saveToken(token, "name");
         }
 
         public void initWithoutDB()

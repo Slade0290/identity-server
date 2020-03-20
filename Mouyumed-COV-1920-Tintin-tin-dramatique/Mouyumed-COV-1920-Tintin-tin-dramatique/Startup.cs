@@ -7,8 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
-
+using identity.Data;
 
 namespace Mouyumed_COV_1920_Tintin_tin_dramatique
 {
@@ -19,7 +18,8 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
 		// For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
 		public void ConfigureServices(IServiceCollection services)
 		{
-			
+			services.AddDbContext<MyDbContext>();
+
 			services.AddAuthentication()
 				.AddJwtBearer("AzureAD", options =>
 				{

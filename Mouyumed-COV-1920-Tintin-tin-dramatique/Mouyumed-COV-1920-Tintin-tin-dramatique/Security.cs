@@ -28,7 +28,7 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
 		public Boolean saveToken(string token, string username)
 		{
 
-			System.Data.SqlClient.SqlConnection sqlConnection1 =
+			/*System.Data.SqlClient.SqlConnection sqlConnection1 =
 			new System.Data.SqlClient.SqlConnection("YOUR CONNECTION STRING");
 
 			System.Data.SqlClient.SqlCommand cmd = new System.Data.SqlClient.SqlCommand();
@@ -38,13 +38,13 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
 
 			sqlConnection1.Open();
 			cmd.ExecuteNonQuery();
-			sqlConnection1.Close();
+			sqlConnection1.Close();*/
 			return true;
 		}
 
 		public int getPassword(string username)
 		{
-			int pwd = 0;
+			/*int pwd = 0;
 			System.Data.SqlClient.SqlConnection sqlConnection1 =
 			new System.Data.SqlClient.SqlConnection("YOUR CONNECTION STRING");
 
@@ -56,7 +56,8 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
 			sqlConnection1.Open();
 			cmd.ExecuteNonQuery();
 			sqlConnection1.Close();
-			return pwd;
+			return pwd;*/
+			return 01;
 		}
 
 		public string createToken(int size)
@@ -66,7 +67,7 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
 
 		public Boolean tokenIsExpirated()
 		{
-			System.Data.SqlClient.SqlConnection sqlConnection1 =
+			/*System.Data.SqlClient.SqlConnection sqlConnection1 =
 			new System.Data.SqlClient.SqlConnection("YOUR CONNECTION STRING");
 
 			System.Data.SqlClient.SqlCommand cmd = new System.Data.SqlClient.SqlCommand();
@@ -82,7 +83,8 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
 			//DateTime d1 = DateTime.Now; 
 			//d2 = Date in base
 			//DateTime.Compare(d1, d2)
-			return (DateTime.Compare(d1, d2)>=0)?true:false;
+			return (DateTime.Compare(d1, d2)>=0)?true:false;*/
+			return true;
 
 		}
 

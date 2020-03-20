@@ -14,7 +14,7 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
 
         }
 
-        public Boolean isInDatabase(string log)
+        /*public Boolean isInDatabase(string log)
         {
 
         }
@@ -27,7 +27,7 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
         public Boolean authorization(string log, string pw)
         {
 
-        }
+        }*/
     }
 
 }
