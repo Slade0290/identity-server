@@ -1,12 +1,23 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Reflection;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Mouyumed_COV_1920_Tintin_tin_dramatique
 {
-	public class Database
+	public class Database : IMigrationsAssembly
 	{
 		private SqlConnection connection;
+
+		public IReadOnlyDictionary<string, TypeInfo> Migrations => throw new NotImplementedException();
+
+		public ModelSnapshot ModelSnapshot => throw new NotImplementedException();
+
+		public Assembly Assembly => throw new NotImplementedException();
+
 		public Database(string datasource, string userid, string pwd, string table)
 		{
 			init(datasource, userid, pwd, table);
@@ -25,6 +36,16 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
 		public SqlConnection connect()
 		{
 			return this.connection;
+		}
+
+		public string FindMigrationId(string nameOrId)
+		{
+			throw new NotImplementedException();
+		}
+
+		public Migration CreateMigration(TypeInfo migrationClass, string activeProvider)
+		{
+			throw new NotImplementedException();
 		}
 	}
 }

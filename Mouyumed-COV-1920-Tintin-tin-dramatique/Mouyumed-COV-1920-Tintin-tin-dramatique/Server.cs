@@ -6,7 +6,7 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
     {
         public Server()
         {
-
+            
         }
 
         public void addToDB(string lg, string pw)
