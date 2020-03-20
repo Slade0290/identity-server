@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Mouyumed_COV_1920_Tintin_tin_dramatique
+namespace identity
 {
     public static class ConstVariable
     {

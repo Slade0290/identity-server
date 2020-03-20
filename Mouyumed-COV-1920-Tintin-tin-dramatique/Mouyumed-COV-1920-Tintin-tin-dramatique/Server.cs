@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Mouyumed_COV_1920_Tintin_tin_dramatique
+namespace identity
 {
     public class Server
     {

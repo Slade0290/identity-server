@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Mouyumed_COV_1920_Tintin_tin_dramatique
+namespace identity
 {
 
     public class IdentityServer

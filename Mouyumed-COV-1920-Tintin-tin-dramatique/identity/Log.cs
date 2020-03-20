@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using NLog;
 
-namespace Mouyumed_COV_1920_Tintin_tin_dramatique
+namespace identity
 {
     public class Log
     {

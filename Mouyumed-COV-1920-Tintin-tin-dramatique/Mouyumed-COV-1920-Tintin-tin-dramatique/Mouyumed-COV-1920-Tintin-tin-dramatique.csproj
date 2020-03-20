@@ -6,7 +6,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Data\**" />
+    <Compile Remove="Models\**" />
+    <Content Remove="Data\**" />
+    <Content Remove="Models\**" />
+    <EmbeddedResource Remove="Data\**" />
+    <EmbeddedResource Remove="Models\**" />
+    <None Remove="Data\**" />
+    <None Remove="Models\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="ConstVariable.cs" />
     <Compile Remove="Database.cs" />
+    <Compile Remove="IdentityServer.cs" />
+    <Compile Remove="Log.cs" />
+    <Compile Remove="Security.cs" />
+    <Compile Remove="Server.cs" />
+    <Compile Remove="Token.cs" />
   </ItemGroup>
 
   <ItemGroup>

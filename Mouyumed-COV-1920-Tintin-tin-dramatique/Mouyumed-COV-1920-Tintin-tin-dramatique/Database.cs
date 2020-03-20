@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Data.SqlClient;
 
-namespace Mouyumed_COV_1920_Tintin_tin_dramatique
+namespace identity
 {
 	public class Database : IMigrationsAssembly
 	{
