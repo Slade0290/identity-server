@@ -21,8 +21,7 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
         public void init()
         {
             Security secu = new Security();
-            int tokenLength = 40;
-            string token = secu.createToken(tokenLength);
+            string token = secu.createToken(ConstVariable.TOKEN_LENGHT);
 
             secu.saveToken(token);
         }

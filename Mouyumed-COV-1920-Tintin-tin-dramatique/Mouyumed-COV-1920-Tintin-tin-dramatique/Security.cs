@@ -88,7 +88,7 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
 
 		public void tokenRefresh()
 		{
-			createToken(12);
+			createToken(ConstVariable.TOKEN_LENGHT);
 		}
 
 		public string generateSecretID()
