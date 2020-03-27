@@ -32,11 +32,11 @@ namespace identity
 			return (pw.CompareTo(GetHashString(getPwd)) != 0) ? true : false;
 		}
 
-		public Boolean saveToken(string token, string username)
+		public Boolean saveToken(string token, string clientId)
 		{
 			using (var context = new MyDbContext())
 			{
-				var client = context.Clients.First(a => a.clientID == username);
+				var client = context.Clients.First(a => a.clientID == clientId);
 				client.token = token;
 				context.Update(client);
 				context.SaveChanges();
@@ -44,11 +44,11 @@ namespace identity
 				return true;
 		}
 
-		public string getPassword(string username)
+		public string getPassword(string clientID)
 		{
 			using (var context = new MyDbContext())
 			{
-				var client = context.Clients.First(a => a.login == username);
+				var client = context.Clients.First(a => a.clientID == clientID);
 				return client.password;
 			}
 			
