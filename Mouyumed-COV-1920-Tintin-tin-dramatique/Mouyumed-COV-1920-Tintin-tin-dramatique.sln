@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mouyumed-COV-1920-Tintin-tin-dramatique", "Mouyumed-COV-1920-Tintin-tin-dramatique\Mouyumed-COV-1920-Tintin-tin-dramatique.csproj", "{BCD5A1EA-6646-4B79-ACA3-420FB5379234}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "identity", "identity\identity.csproj", "{1F8C2AAA-AB12-4AB5-8A39-478E9886792E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "identity", "identity\identity.csproj", "{1F8C2AAA-AB12-4AB5-8A39-478E9886792E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{C03FC715-F004-45F5-AAC6-0A3CAF45352A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1F8C2AAA-AB12-4AB5-8A39-478E9886792E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F8C2AAA-AB12-4AB5-8A39-478E9886792E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F8C2AAA-AB12-4AB5-8A39-478E9886792E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C03FC715-F004-45F5-AAC6-0A3CAF45352A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C03FC715-F004-45F5-AAC6-0A3CAF45352A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C03FC715-F004-45F5-AAC6-0A3CAF45352A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C03FC715-F004-45F5-AAC6-0A3CAF45352A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
