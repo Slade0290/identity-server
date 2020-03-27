@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using identity.Models;
+using identity.Tools;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,9 +12,8 @@ namespace identity.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\lydav\Desktop\git-repo\identity-server\Mouyumed-COV-1920-Tintin-tin-dramatique\identity\Data\Database1.mdf;Integrated Security=True");
             
-            //optionsBuilder.UseSqlServer(@"Server=localhost:3306;Database=test;User Id=test;Password=;");//, x => x.MigrationsAssembly("Mouyumed_COV_1920_Tintin_tin_dramatique.Migrations"));
+            optionsBuilder.UseSqlServer(ChaineDeConnexion.CONNEXION_STRING);
         }
 
         public DbSet<Client> Clients { get; set; }
