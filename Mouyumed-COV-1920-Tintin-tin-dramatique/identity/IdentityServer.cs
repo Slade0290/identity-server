@@ -9,16 +9,9 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
 
     public class IdentityServer
     {
-        public IdentityServer(Boolean withDb = true)
+        public IdentityServer()
         {
-            if (withDb) init();
-            else initWithoutDB();
-            /*
-            config :
-            dbname connection 
-            fichier de migration dans la base de données user
-            script qui genere un token 
-            */
+
         }
 
         public void init()
@@ -27,11 +20,6 @@ namespace Mouyumed_COV_1920_Tintin_tin_dramatique
             string token = secu.createToken(ConstVariable.TOKEN_LENGHT);
 
             secu.saveToken(token, "name");
-        }
-
-        public void initWithoutDB()
-        {
-
         }
 
         public void clientAddress(string url)

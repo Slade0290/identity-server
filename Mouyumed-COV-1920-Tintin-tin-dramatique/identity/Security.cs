@@ -50,8 +50,7 @@ namespace identity
 			{
 				var client = context.Clients.First(a => a.clientID == clientID);
 				return client.password;
-			}
-			
+			}			
 		}
 
 		public string createToken(int size)
