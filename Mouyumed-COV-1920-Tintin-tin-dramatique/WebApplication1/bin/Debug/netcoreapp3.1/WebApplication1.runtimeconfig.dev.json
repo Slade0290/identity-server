@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\lydav\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\lydav\\.nuget\\packages"
+    ]
+  }
+}
