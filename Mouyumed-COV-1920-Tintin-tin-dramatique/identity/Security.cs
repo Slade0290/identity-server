@@ -36,7 +36,7 @@ namespace identity
 		{
 			using (var context = new MyDbContext())
 			{
-				var client = context.Clients.First(a => a.login == username);
+				var client = context.Clients.First(a => a.clientID == username);
 				client.token = token;
 				context.Update(client);
 				context.SaveChanges();
