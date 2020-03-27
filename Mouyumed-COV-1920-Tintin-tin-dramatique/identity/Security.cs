@@ -11,18 +11,16 @@ using System.Text;
 
 namespace identity
 {
-	public class Security:DbContext
+	public class Security : MyDbContext
 	{
-		public DbSet<Client> Client { get; set; }
 		public Security()
 		{
+
 		}
 
 		public byte[] hashPassword(String pw)
 		{
-
 			return GetHash(pw);
-
 		}
 
 		public Boolean passwordCheck(string pw,string username)
@@ -41,10 +39,10 @@ namespace identity
 				context.Update(client);
 				context.SaveChanges();
 			}
-				return true;
+			return true;
 		}
 
-		public string getPassword(string clientID)
+		private string getPassword(string clientID)
 		{
 			using (var context = new MyDbContext())
 			{
@@ -55,20 +53,17 @@ namespace identity
 
 		public string createToken(int size)
 		{
-			return TokenGenerator.Generate(size);
-		}
-
-		
+			return generateRandomString(size);
+		}		
 
 		public void tokenRefresh(string username)
 		{
-			saveToken(createToken(ConstVariable.TOKEN_LENGHT), username);
-			
+			saveToken(createToken(ConstVariable.TOKEN_LENGHT), username);			
 		}
 
-		public string generateSecretID()
+		public string generateSecretID(int size)
 		{
-			return "";
+			return generateRandomString(size);
 		}
 
 		public static byte[] GetHash(string inputString)
@@ -84,6 +79,11 @@ namespace identity
 				sb.Append(b.ToString("X2"));
 
 			return sb.ToString();
+		}
+
+		private string generateRandomString(int size)
+		{
+			return TokenGenerator.Generate(size);
 		}
 
 	}

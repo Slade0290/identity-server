@@ -13,7 +13,7 @@ namespace identity.Data
         {
             base.OnConfiguring(optionsBuilder);
             
-            optionsBuilder.UseSqlServer(ChaineDeConnexion.CONNEXION_STRING);
+            optionsBuilder.UseSqlServer(ConstVariable.CONNEXION_STRING);
         }
 
         public DbSet<Client> Clients { get; set; }

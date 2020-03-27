@@ -168,4 +168,5 @@ C:\Users\lydav\Desktop\git-repo\identity-server\Mouyumed-COV-1920-Tintin-tin-dra
 C:\Users\lydav\Desktop\git-repo\identity-server\Mouyumed-COV-1920-Tintin-tin-dramatique\WebApplication1\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\lydav\Desktop\git-repo\identity-server\Mouyumed-COV-1920-Tintin-tin-dramatique\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\lydav\Desktop\git-repo\identity-server\Mouyumed-COV-1920-Tintin-tin-dramatique\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lydav\Desktop\git-repo\identity-server\Mouyumed-COV-1920-Tintin-tin-dramatique\WebApplication1\bin\Debug\netcoreapp3.1\System.Text.Json.dll
 C:\Users\lydav\Desktop\git-repo\identity-server\Mouyumed-COV-1920-Tintin-tin-dramatique\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
