@@ -11,6 +11,8 @@ namespace identity.Models
 		public string clientID { get; set; }
 		public string secretID { get; set; }
 
+		public string token { get; set; }
+
 		public Client()
 		{
 
