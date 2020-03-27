@@ -6,6 +6,8 @@ using Microsoft.EntityFrameworkCore;
 using identity.Models;
 using identity.Data;
 using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace identity
 {
@@ -16,19 +18,18 @@ namespace identity
 		{
 		}
 
-		public int hashPassword(String pw)
+		public byte[] hashPassword(String pw)
 		{
 
-			return pw.GetHashCode();
+			return GetHash(pw);
 
 		}
 
 		public Boolean passwordCheck(string pw,string username)
 		{
-			int testPwd = hashPassword(pw);
 			string getPwd = getPassword(username);
 
-			return (testPwd.CompareTo(getPwd) != 0) ? true : false;
+			return (pw.CompareTo(GetHashString(getPwd)) != 0) ? true : false;
 		}
 
 		public Boolean saveToken(string token, string username)
@@ -69,6 +70,21 @@ namespace identity
 		public string generateSecretID()
 		{
 			return "";
+		}
+
+		public static byte[] GetHash(string inputString)
+		{
+			using (HashAlgorithm algorithm = SHA256.Create())
+				return algorithm.ComputeHash(Encoding.UTF8.GetBytes(inputString));
+		}
+
+		public static string GetHashString(string inputString)
+		{
+			StringBuilder sb = new StringBuilder();
+			foreach (byte b in GetHash(inputString))
+				sb.Append(b.ToString("X2"));
+
+			return sb.ToString();
 		}
 
 	}
